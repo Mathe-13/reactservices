@@ -5,12 +5,15 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import ComponentServiceCustomers from './Components/ComponentServiceCustomers';
 import ComponentServiceSuppliers from './Components/ComponentServiceSuppliers';
-
+import EmpleadosDepartamentos from './Components/EmpleadosDepartamentos';
+import EmpleadosOficio from './Components/EmpleadosOficio';
+import EmpleadosComponent from './Components/maestrodetalle/EmpleadosComponent';
+import DepartamentosComponet from './Components/maestrodetalle/DepartamentosComponent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   
-    <ComponentServiceSuppliers />
+    <DepartamentosComponet />
     
   
 );
